@@ -1,0 +1,18 @@
+git clone https://github.com/fundestr/SIC_2024_2025 #repo prueba
+git remote add upstream https://github.com/fundestr/SIC_2024_2025 #repo prueba
+git remote -v
+git checkout main #cambiar a rama principal
+git branch #litar ramas
+git add . #agregar todos los archivos
+sit status
+git commit -m "Alexander.py" #agregar commit
+git config pull.rebase false #merge
+git pull second main #descargar archivos de la rama
+git fetch second #subir cambios, es pa los colaboradores
+git merge second/main #muestra quienes hicieron cambios
+
+
+
+
+para el user admin, para subir principal es 
+git push -u second main
